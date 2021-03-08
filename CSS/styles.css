@@ -6,145 +6,155 @@
 
 
 /* Global Syles */
-    html{
-        box-sizing: border-box;
-    }
-    *, *:before, *:after{
-        box-sizing: inherit; 
-    }
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
-    body{
-        /* font-family: "Lucida Bright",Georgia,serif; */
-        font-family: 'Open Sans', sans-serif;
-        margin:0;
-    }
-    h1, h2{
-        font-family: 'Caveat', cursive;
-        font-weight: 400;
-    }
+body {
+  /* font-family: "Lucida Bright",Georgia,serif; */
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+h1,
+h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
 
-    h1 {
-        font-size: 80px;
-    }
-    h2 {
-        font-size: 40px;
-        margin-top: 0;
-        
-    }
+h1 {
+  font-size: 80px;
+}
+h2 {
+  font-size: 40px;
+  margin-top: 0;
+}
 
-    /* Links */
-        a{
-            color: rgb(255, 255, 255);
-        }
-        a:hover{
-            text-decoration: none;
-        }
-    
-    .content-wrap{
-        max-width: 950px;
-        margin: 0 auto;
-        padding: 50px;
-        overflow: hidden;
-    }
-    
-     /*  Profile Image adjustment */
-    .col-narrow{
-        width: 30%;
-        float: left;
-    }
-     /* Intro section adjustment */
-    .col-wide{
-        width: 70%;
-        float: left;
-        padding-left: 30px;
-    }
+/* Links */
+a {
+  color: rgb(255, 255, 255);
+}
+a:hover {
+  text-decoration: none;
+}
+
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+/*  Profile Image adjustment */
+.col-narrow {
+  width: 30%;
+  float: left;
+}
+/* Intro section adjustment */
+.col-wide {
+  width: 70%;
+  float: left;
+  padding-left: 30px;
+}
 
 /* Navigation section */
-    nav{
-        text-align: center;
-        background-color: white;
-        position: fixed;
-        width: 100%;
-    }
-    nav a{
-        display: inline-block;
-        padding: 15px 30px;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: 700;
-        color: black;
-    }
-    nav a:hover{
-        text-decoration: underline;
-    }
+nav {
+  text-align: center;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+nav a {
+  display: inline-block;
+  padding: 15px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: black;
+}
+nav a:hover {
+  text-decoration: underline;
+}
 
 /* Work Experience  section*/
-    .work {
-        background: #EDF2F4;
-    }
+.work {
+  background: #edf2f4;
+}
 
-    .job_tab{
-        margin-left: 0;
-        max-width: 100%;
-                
-    }
-    .job_tab tr td {
-        padding-bottom: 15px;
-        width: 20%;
-        vertical-align: top;
-    }
+.job_tab {
+  margin-left: 0;
+  max-width: 100%;
+}
+.job_tab tr td {
+  padding-bottom: 15px;
+  width: 20%;
+  vertical-align: top;
+}
 
-    .job_tab tr td:nth-child(2) {
-        padding-bottom: 15px;
-        width: 70%;
-    }
+.job_tab tr td:nth-child(2) {
+  padding-bottom: 15px;
+  width: 70%;
+}
 
-    .job_tab tr td:nth-child(1) {
-        font-weight: 700;
-    }
-
+.job_tab tr td:nth-child(1) {
+  font-weight: 700;
+}
 
 /* Education  section*/
-    .education {
-        background: #8D99AE;
-    }
-    .edu_sec{
-        margin-left: 0;
-    }
-
-
+.education {
+  background: #8d99ae;
+}
+.edu_sec {
+  margin-left: 0;
+}
 
 /* Header and footer section */
-    header, footer {
-        background: #2B2D42;
-        color: #EDF2F4;
-    }
+header,
+footer {
+  background: #2b2d42;
+  color: #edf2f4;
+}
 
-    /* Header */
-    header{
-        padding-top: 50px;
-    }
-    
-    
-    header h1, header h2 {
-        color:#EDF2F4;
-        margin: 0;
-    }
-    .profile-img{
-        border-radius: 50%;
-    }
+/* Header */
+header {
+  padding-top: 50px;
+}
 
-    /* Footer */
-    footer{
-        text-align: center;
-    }
-    footer div img {
-        max-width: 70px;
-        max-height: 30px;
-    }
-    .contact-info a{
-        margin:5px;
-        padding: 5px;
-        display: inline-block;
-    }
+header h1,
+header h2 {
+  color: #edf2f4;
+  margin: 0;
+}
+.profile-img {
+  border-radius: 50%;
+}
 
+/* Footer */
+footer {
+  text-align: center;
+}
+footer div img {
+  max-width: 70px;
+  max-height: 30px;
+}
+.contact-info a {
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.td_resume {
+  padding-top: 1.5em;
+}
+
+.resume {
+  font-weight: bolder;
+}
