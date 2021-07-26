@@ -48,7 +48,9 @@ a:hover {
   padding: 50px;
   overflow: hidden;
 }
-
+.about {
+  height: 100vh;
+}
 /*  Profile Image adjustment */
 .col-narrow {
   width: 30%;
@@ -157,4 +159,8 @@ footer div img {
 
 .resume {
   font-weight: bolder;
+}
+
+.underline {
+  text-decoration: underline;
 }
